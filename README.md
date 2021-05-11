@@ -2,6 +2,8 @@
 
 [node.js](https://nodejs.org/ko/) 설치해야함
 
+*모듈까는법알려주기기차나서대신너어드렷습니다~*
+
 ## 사용법
 
 `run.bat` 실행하면 됨
@@ -13,12 +15,10 @@ midiToAdofai(  `midi파일`, `bpm`, `트랙(일반적으로 1, 아니면 0부터
 ### 음 옥타브 조정
 
 `conveter.js` 13번째줄
-```js
+
+```javascript
 function nHz(n)
 {
   return 55*Math.pow(2,(n-9-12*(내릴 옥타브))/12);
 }
 ```
-
-
-모듈못깔거가태서너어드렷습니다~
