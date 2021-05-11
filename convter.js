@@ -28,7 +28,7 @@ var map=
 		"version": 2, 
 		"artist": ar,
 		"song": na,
-		"author": "", 
+		"author": "와샌즈", 
 		"hitsound": "Kick", 
 		"hitsoundVolume": 100, 
 		"separateCountdownTime": "Enabled",
