@@ -5,3 +5,5 @@ function midiToAdofai(midiFile,BPM,track,saveFileName=midiFile+'.adofai',artist=
 {
   fs.writeFileSync('./'+saveFileName,JSON.stringify(conv(fs.readFileSync('./'+midiFile),BPM,track,artist,song)));
 }
+
+midiToAdofai('./fd.mid',222.22,2);
